@@ -222,6 +222,8 @@ def main():
     handle_csv(info_dict)
     # Playtime
     print(f"Playtime: {datetime.timedelta(seconds=get_playtime(info_dict))}")
+    # Hang
+    input("Press any key to continue...")
 
 
 if __name__ == "__main__":
